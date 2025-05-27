@@ -1,8 +1,7 @@
 # Machine-Learning-Models-for-Breast-Cancer-Prediction
 Machine Learning models for prediction of Breast Cancer from the renowned Breast Cancer Wisconsin Diagnostic dataset
-# ML 7641 - Supervised Learning Algorithms: Comparative Analysis
 
-This project presents a comprehensive analysis and comparison of various supervised learning algorithms on two imbalanced binary classification datasets: **Pima Indian Diabetes** and **Wisconsin Breast Cancer**. The work was submitted as Assignment 1 for Machine Learning (CS 7641) at Georgia Tech.
+This project presents a comprehensive analysis and comparison of various supervised learning algorithms on two imbalanced binary classification datasets: **Pima Indian Diabetes** and **Wisconsin Breast Cancer**.
 
 ## 📊 Datasets
 
