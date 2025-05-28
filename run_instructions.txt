@@ -1,0 +1,46 @@
+* The two datasets used are:
+	* PIMA Indian Diabetes
+	* Wisconsin Breast Cancer
+   Although they could be downloaded from Kaggle and UCI (links available in references),
+   however for running the programs local copies should be used - which are found under the "data" directory
+   found under the overall root directory
+
+* The project is implemented as stand-alone Python programs (with some some programs being reused, which is noted below)
+
+* At a high level, there are 16 programs organized as follows:
+    * There is one program "A1_Common.py" which contains common functions reused by all programs
+    * Each algorithm has the following 3 programs:
+         * <algorithm>_Common.py (contains code that is common to that algorithm only)
+	 * <algorithm>_Pima.py (contains code for that algorithm for the Pima dataset)
+	 * <algorithm>_Wisconsin.py (contains code for that algorithm for the Pima dataset)
+    * The algorithm prefix is:
+         Dtree - Decision Trees
+	 Boosting - Boosting
+	 KNN - Nearest Neighbors
+	 NN - Neural Networks
+	 SVM - Support Vector Machines
+    * Any desired algorithm for a specific dataset can be executed by running the program that represents the combination of 
+      the algorithm and dataset.
+    * !!IMPORTANT!! pythonpath must be included in the program execution command and should include both the current directory
+      and the parent directory
+    * When any of the 10 programs are run, all charts and results will be written to the <results> directory (see directory structure below)
+    * Code that runs grid search is commented out. They should be uncommented if they need to be run. That part of the code will look like below:
+		   # a1c.perform_grid_search(clf, make_grid_search_params(), x_train, y_train, verbose=4, write_results=True,
+    		   #                         file_name=gs_results_file_)
+    * Not all programs have a grid search, since other techniques such as validation curves were used sometimes to select hyperparameters
+
+
+
+* The programs were written in Python 3.11 and has the following dependencies:
+	* matplotlib
+	* numpy
+	* pandas
+	* sklearn
+
+* The program directory structure is as follows:
+	<assignment1>
+		<data>
+			breast-cancer-wisconsin.csv
+			pima_diabetes.csv
+		<results>
+			[contains all charts and text result files]
