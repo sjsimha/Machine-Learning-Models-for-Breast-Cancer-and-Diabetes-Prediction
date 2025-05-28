@@ -38,7 +38,7 @@
 	* sklearn
 
 * The program directory structure is as follows:
-	<assignment1>
+	<root_dir>
 		<data>
 			breast-cancer-wisconsin.csv
 			pima_diabetes.csv
