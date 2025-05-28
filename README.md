@@ -1,6 +1,9 @@
 # Machine Learning Models for Breast Cancer and Diabetes Prediction
 This project develops many supervised machine learning algorithms for two renowned real-life imbalanced binary classification datasets: the **Pima Indian Diabetes** and the **Wisconsin Breast Cancer**, and presents a comprehensive analysis and comparison.
 
+[📄 View Full Report (PDF)](Assignment1_Report.pdf)
+
+
 ## 📊 Datasets
 
 - **Pima Indian Diabetes Dataset**: [Kaggle Link](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
