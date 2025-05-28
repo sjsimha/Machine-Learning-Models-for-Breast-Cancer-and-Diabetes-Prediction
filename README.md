@@ -1,6 +1,4 @@
 # Machine Learning Models for Breast Cancer and Diabetes Prediction
-Machine Learning models for prediction of Breast Cancer from the renowned Breast Cancer Wisconsin Diagnostic dataset
-
 This project develops many supervised machine learning algorithms for two renowned real-life imbalanced binary classification datasets: the **Pima Indian Diabetes** and the **Wisconsin Breast Cancer**, and presents a comprehensive analysis and comparison.
 
 ## 📊 Datasets
