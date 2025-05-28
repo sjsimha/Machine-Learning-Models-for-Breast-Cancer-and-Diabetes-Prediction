@@ -79,12 +79,4 @@ All models were trained with stratified 80/20 splits and evaluated using **Avera
 ---
 
 ## 🛠️ How to Run
-
-```bash
-# Recommended structure
-cd analysis
-python decision_tree.py
-python boosting.py
-python knn.py
-python neural_network.py
-python svm.py
+[Run_Instructions](run_instructions.txt)
